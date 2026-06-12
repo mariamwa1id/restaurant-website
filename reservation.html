@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav>
+    <h2>Aura</h2>
+     <div class="links">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="menu.html" target="_blank">Menu</a>
+        <a href="gallery.html" target="_blank">Gallery</a>
+        <a href="contact.html" target="_blank">Contact</a>
+    </div>
+</nav>
+
+<section class="reservation">
+    <h1>Book a Table</h1>
+
+    <form class="reservation-form" id="reservationForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="tel" id="phone" placeholder="Your phone number" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+        <input type="number" id="guests" placeholder="Number of Guests" min="1" max="20" required>
+        <button type="submit">Confirm Reservation</button>
+    </form>
+
+    <p id="message" style="margin-top: 20px; text-align: center; font-weight: bold;"></p>
+</section>
+
+<script src="script2.js"></script>
+</body>
+</html>
